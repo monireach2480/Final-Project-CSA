@@ -1,0 +1,65 @@
+                                    Personal Financial Management system
+This is a simple program that helps users manage their personal finances. It uses Python's Tkinter for the user interface, SQLite for storing data, and pandas for handling reports.
+
+What Does It Do?
+This program allows users to:
+
+Set a budget.
+Track daily expenses.
+View and increase their budget.
+Generate financial reports.
+Log in, register, or delete their account.
+Key Parts
+Database (SQLite):
+
+Stores user accounts and expense details.
+User Interface (Tkinter):
+
+Buttons and windows for actions like setting budgets, adding expenses, and generating reports.
+Main Features:
+
+Login/Register: Securely log in or create a new account.
+Budget Management: Set, view, or increase your budget.
+Expense Tracking: Add expenses by category, amount, and date.
+Reports: Generate detailed expense reports for specific years.
+Delete Account: Permanently remove your account.
+How to Use It
+Start the Program:
+Run the script, and the application window will open.
+
+Register or Log In:
+
+Register a new account if you’re a first-time user.
+Log in if you already have an account.
+Set Your Budget:
+
+Enter your budget amount to start managing finances.
+Add Expenses:
+
+Record expenses by selecting a category, entering an amount, and choosing a date.
+Generate Reports:
+
+View your expenses in a detailed report filtered by year.
+Adjust Your Budget:
+
+Use the "Increase Budget" option to update your budget anytime.
+Delete Account:
+
+Permanently delete your account if needed.
+
+
+
+
+                                # Prerequisites
+Python: Install Python on your system.
+Required Libraries:
+Install these by running:
+                        pip install tkinter tkcalendar pandas  
+
+
+ 
+SQLite: No extra setup required as it comes with Python.
+
+Security Note:
+The program uses basic password hashing. For real-world use, consider stronger methods like bcrypt.
+Data is stored in a local database. For larger applications, a more secure database is recommended.
